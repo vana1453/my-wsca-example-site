@@ -1,0 +1,184 @@
+@font-face {
+font-family:'unicode2';
+src:url(./fonts/Uni\ Ila.Sundaram-02.ttf );
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family:'unicode';
+src: url(./fonts/BalooThambi2-Regular.ttf);
+font-weight: normal;
+font-style: italic;
+}
+@font-face {
+font-family:'unicode3';
+src:url(./fonts/BalooThambi2-Medium.ttf);
+font-weight: normal;
+font-style: italic;
+}
+
+html.wf-loading * {
+   
+    opacity: 0;
+}
+
+
+*{
+padding:0;
+margin:0 auto;
+}
+
+body {
+/* background-color: rgb(170, 205, 219); */
+background-size: 100px;
+background-repeat: no-repeat;
+
+font-size: 22px;
+}
+
+h1 {
+/* font-family: 'unicode'; */
+text-align: center;
+color: black;
+margin-bottom: 20px;
+font-size: 32px;
+padding-top: 10px;
+}
+
+h2{
+    text-align: center;
+    /* font-family: 'unicode'; */
+    /* font-size: 14px; */
+    font: .85em sans-serif;
+    line-height: 1px;
+}
+a {
+
+font-family: 'unicode';
+}
+ul {
+list-style: none;
+background-color: orange;  /* ul backroun d and ul li ba */
+overflow: hidden;  /* once you add float left, the overf  */
+position:sticky;
+top:0px;
+}
+
+ul li {
+background-color:orange ;
+/* display: inline; */
+float: left;
+line-height: 58px;   /* this will make the purple horizo was 40px orginal */
+/* border-right: 3px solid white; */
+}
+
+ul li a {
+color: white;
+text-decoration: none;
+padding: 10px;
+
+}
+
+.right {
+float:right;
+border-right: none;  /* this will remove the help menu r */
+}
+
+li a:hover:not(.active) {
+background-color:yellow;
+color: orange;
+border-radius: .6em .6em .6em .6em;
+
+}
+
+ul > li.active {
+background-color: blue;
+}
+
+.container {
+width:1080px;
+padding:2px 14px;
+/* margin-top: 80px; */
+}
+
+.stg1 {
+    white-space: pre;
+    font-family: 'unicode';
+}
+
+.final {
+    white-space: pre;
+    font-family: 'unicode';
+}
+
+h1 {
+font-family: 'unicode2';
+}
+.t1-p42, .t1-p43, .t1-p44, .t1-p45, .t1-p46, .t1-p47{
+white-space: pre;
+font-family: 'unicode';
+}
+
+.wsca {
+white-space: pre;
+font-family: 'unicode';
+}
+
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.wsca a {
+    text-decoration: none;
+}
+
+a:active {
+    background-color: darkolivegreen;
+}
+
+
+
+footer {
+    font-family: 'unicode';
+    padding-top: 10px;
+    text-align: center;
+    color: brown;
+    padding-bottom: 30px;
+}
+
+html {
+    width: 1080px;
+   background-color:white;
+    
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.wscalogo {
+    background-image: url(../images/tamil-logo.png);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: 110px;
+    
+}
+.wscalogo > .wscalogoright {
+    background-image: url(../images/english-logo.png);
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: 110px;
+
+}
+
+
+
+    
+  
+    
+  
+    
